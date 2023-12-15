@@ -1,0 +1,59 @@
+.Card {
+    background: #58f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 20em;
+    height: 12em;
+    gap: 5px;
+    justify-items: center;
+    border: 2px solid #fff;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.title {
+    background: #88f;
+    display: grid;
+    grid-column: 1/3;
+    width: 100%;
+    border: #fff solid 2px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+
+    &:hover {
+        background: #58c;
+    }
+}
+
+.p1 {
+    background: #88f;
+    display: grid;
+    width: 100%;
+    border: #fff solid 2px;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 5px;
+
+    &:hover {
+        background: #58c;
+    }
+}
+
+.p2 {
+    background: #88f;
+    display: grid;
+    width: 100%;
+    border: #fff solid 2px;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 5px;
+
+    &:hover {
+        background: #58c;
+    }
+}
